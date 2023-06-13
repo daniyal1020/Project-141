@@ -1,0 +1,58 @@
+body{
+    background-size: cover;
+}
+.heading{
+    width: 100%;
+}
+.heading h3{
+    float: left;
+    display: inline;
+    font-size: 25px;
+    font-style: italic;
+}
+.heading button{
+    float: right;
+    font-style: italic;
+    font-weight: bold;
+    border: 1px solid white;
+}
+#play_button{
+    width: 30%;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bolder;
+}
+#status{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+#restart{
+    width: 20%;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 10px;
+    
+}
+.copy_right_footer{
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    color: lime;
+    text-shadow: 5px 5px 5px grey;
+    line-height: 2;
+    font-size: 20px;
+    font-weight: bolder;
+    font-style: italic;
+}
+canvas{
+    border-radius: 20px;
+    border: 5px solid white;
+}
+video{
+    bottom: 0;
+}
